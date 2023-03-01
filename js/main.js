@@ -407,4 +407,11 @@ $(document).ready(function () {
     $('.close-modal').on('click', function () {
         $.fancybox.close();
     })
+
+    $('.anchor').click(function () {
+        let anchor = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(anchor).offset().top - 200
+        }, 600);
+    });
 })
