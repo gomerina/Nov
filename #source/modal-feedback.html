@@ -1,0 +1,55 @@
+<div class="modal feedback-modal" id="feedbackModal">
+    <div class="feedback-modal__content">
+        <div class="modal__heading">
+            Закажите звонок
+        </div>
+        <p>
+            Оставьте номер своего телефона. Мы свяжемся с вами в ближайшее время для уточнения информации.
+        </p>
+        <form action="#">
+            <div class="feedback-form__group">
+                <div class="feedback-form__item">
+                    <div class="feedback-form__name">
+                        Имя (обязательно)
+                    </div>
+                    <input type="text" placeholder="Введите имя" class="form__input">
+                </div>
+                <div class="feedback-form__item">
+                    <div class="feedback-form__name">
+                        телефон (обязательно)
+                    </div>
+                    <input type="tel" placeholder="Введите имя" class="form__input">
+                </div>
+                <div class="feedback-form__item large">
+                    <div class="feedback-form__name">
+                        Тариф (обязательно)
+                    </div>
+                    <div class="custom-select">
+                        <div class="custom-select__head">
+                            <span class="custom-select__value">Один</span>
+                            <svg class="chevron" width="14" height="7" viewBox="0 0 14 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.999939 1L6.99994 6L12.9999 1" stroke="#2E2E2E" stroke-width="1.5"
+                                    stroke-miterlimit="10" />
+                            </svg>
+                        </div>
+                        <input type="hidden" class="custom-select__input">
+                        <ul class="select-menu">
+                            <li class="select-menu__item hidden">Тариф 1</li>
+                            <li class="select-menu__item">Тариф 2</li>
+                            <li class="select-menu__item">Тариф 3</li>
+                            <li class="select-menu__item">Тариф 4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-form__item">
+                <div class="feedback-form__name">
+                    Комментарий
+                </div>
+                <textarea class="form__textarea" placeholder="Оставьте Ваш комментарий"></textarea>
+            </div>
+            <button class="btn">Отправить</button>
+        </form>
+    </div>
+</div>
